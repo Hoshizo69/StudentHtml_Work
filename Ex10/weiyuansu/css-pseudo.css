@@ -1,0 +1,84 @@
+/* 基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* 伪类示例 */
+.link {
+    color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background-color: #f0f0f0;
+    border-color: #ddd;
+}
+
+.link:visited {
+    color: purple;
+}.rotated-box {
+  transform: rotate(45deg);
+}
+.rotated-box {
+  transform: rotate(45deg);
+}
+
+
+.button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #f00;
+}
+
+.button:active {
+    background-color: #a00;
+}
+
+.paragraph {
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.paragraph:hover {
+    background-color: #f8f8f8;
+}
+
+/* 伪元素示例 */
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.box::before {
+    content: "伪元素：";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #666;
+    font-weight: bold;
+}
+
+.box::after {
+    content: "这是一个伪元素";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #999;
+    font-style: italic;
+}

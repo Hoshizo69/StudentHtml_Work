@@ -1,0 +1,107 @@
+.r1{
+    width: 600px;
+    height: 25px;
+    border: 1px solid #000;
+    padding: 15px;
+}
+.r2{
+    width: 600px;
+    height:10px;
+    border: 1px solid #000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* 均匀分布子元素 */
+    align-items: center; /* 如果需要垂直居中 */
+}
+.r3{
+    width: 600px;
+    height:10px;
+    border: 1px solid #000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; /* 均匀分布子元素 */
+    align-items: center; /* 如果需要垂直居中 */
+}
+.body{
+    width: 600px;
+    height:580px;
+    border: 1px solid #000;
+    padding: 15px;
+    display: flex;
+}
+.sum{
+    width: 100px;
+    height:600px;
+    padding: 15px;
+    flex: 3;
+}
+.left1{
+    width: 150px;
+    height:10px;
+    border: 1px solid #000;
+    padding: 15px;
+}
+
+.body-left1{
+    width: 160px;
+    height:100px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.left2{
+    width: 150px;
+    height:10px;
+    border: 1px solid #000;
+    padding: 15px;
+}
+.body-left2{
+    width: 150px;
+    height:100px;
+    border: 1px solid #000;
+    padding: 15px;
+}
+.body-left3{
+    width: 150px;
+    height:100px;
+    border: 1px solid #000;
+    padding: 15px;
+}
+.contain{
+    width: 200px;
+    height:600px;
+    padding: 15px;
+    flex: 6;
+}
+.right1{
+    width: 300px;
+    height:10px;
+    border: 1px solid #000;
+    padding: 15px;
+    position: relative;
+}
+.left-text{
+    position: absolute; /* 绝对定位 */
+    left: 0;
+}
+.right-text{
+    position: absolute; /* 绝对定位 */
+    right: 0;
+}
+.body-right1{
+    width: 310px;
+    height:120px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.body-right2{
+    width: 300px;
+    height:130px;
+    border: 1px solid #000;
+    padding: 15px;
+}
+.body-right3{
+    width: 300px;
+    height:50px;
+    border: 1px solid #000;
+    padding: 15px;
+}

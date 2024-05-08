@@ -1,0 +1,29 @@
+table{
+    border-collapse: collapse;
+    padding: inherit;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    border:1px solid blue;
+}
+
+div{
+    text-align: center;
+}
+th{
+    background-color: forestgreen;
+    text-align: center;
+    border:1px solid blue;
+}
+
+td{
+    background-color: darkseagreen;
+    text-align: center;
+    border:1px solid blue;
+}
+
+h1{
+    color: forestgreen;
+    text-align: center;
+}

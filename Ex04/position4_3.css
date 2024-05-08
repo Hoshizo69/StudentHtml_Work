@@ -1,0 +1,30 @@
+input.password{
+    background-color: lightskyblue;
+}
+
+input.button{
+    background-color: lightskyblue;
+    color: blue;
+}
+
+input.choosetext{
+    background-color: lightskyblue;
+    color: blue;
+}
+
+input.text{
+    background-color: bisque;
+    border-top-color: bisque;
+    border-left-color: bisque;
+    border-right-color: bisque;
+    border-bottom-color: green;
+}
+select{
+    background-color: lightskyblue;
+    color: blue;
+}
+textarea{
+    background-color: lightskyblue;
+    color: blue;
+}
+div{text-align: start}

@@ -1,0 +1,82 @@
+div.aliyun-com-global-nav .aliyun-diff-intro .common-menu-scroll-bar-mask{
+    position: absolute;
+    top:0;
+    height: 64px;
+    width: 100px;
+}
+div.aliyun-com-global-nav .aliyun-diff-intro .common-menu-scroll-bar{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+.aliyun-com-global-nav .global-menu-item{
+    position:relative;
+    cursor:default;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+    color:#181818;
+    font-size: 14px;
+    text-decoration-line:none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff; /* 背景色，根据阿里云网站自行调整 */
+    padding: 10px 0; /* 内边距 */
+}
+
+.logo {
+    float: left; /* 左浮动 */
+    margin-right: 20px; /* 与导航栏之间的间距 */
+}
+
+.logo img {
+    width: 100px; /* Logo图片宽度，根据实际情况调整 */
+    height: auto;
+}
+
+nav {
+    float: left; /* 左浮动，使导航栏与Logo并排 */
+}
+
+.navbar {
+    list-style-type: none; /* 移除列表默认的样式 */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block; /* 列表项水平排列 */
+    margin-right: 10px; /* 列表项之间的间距 */
+}
+
+.navbar li a {
+    display: block; /* 使链接占据整个列表项的空间 */
+    padding: 5px 10px; /* 内边距 */
+    text-decoration: none; /* 移除链接的下划线 */
+    color: #333; /* 文字颜色，根据阿里云网站自行调整 */
+    font-size: 14px; /* 文字大小 */
+}
+
+.navbar li a:hover {
+    color: #007bff; /* 鼠标悬停时的文字颜色 */
+    text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
+
+/* 清除浮动 */
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}

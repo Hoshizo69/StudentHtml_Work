@@ -1,0 +1,48 @@
+
+/* 盒模型示例 */
+.box{
+    width:200px;
+    padding:10px;
+    border:5px solid black;
+    margin:15px;
+    background-color:lightblue;
+    text-align:center;
+}
+
+/*浮动布局容器*/
+.container{
+    width:100%;
+    overflow:auto; /*清楚浮动导致的父元素高度塌陷*/
+}
+
+/*浮动布局盒子*/
+.float-left{
+    float:left;
+    width:45%;
+    margin-right: 10%;
+}
+.float-right{
+    float:right;
+    width:45%;
+}
+
+/*清除浮动*/
+.clear{
+    clear:both;
+}
+
+/*弹性布局容器*/
+.flex-container{
+    display:flex;
+    justify-content: space-around; /*子项之间平均分布*/
+    align-items:center;/*子项垂直居中*/
+    padding:10px
+}
+
+/*弹性布局盒子*/
+.flex-container.box{
+    margin:5px;
+    padding:10px;
+    border:2px solid gray;
+    background-color: lightgreen;
+}

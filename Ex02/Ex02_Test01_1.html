@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table_Test01</title>
+    <style>
+        table,td,th{border: 1px solid darkorchid}
+        table.center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<table class = center style="border-width: thick;border-top-color: purple;border-left-color: purple;border-bottom-color: darkorchid;border-right-color: darkorchid">
+    <tr>
+       <th colspan="3">学生基本信息</th>
+       <th colspan="5">成绩</th>
+    </tr>
+    <tr>
+        <td>姓名</td>
+        <td>性别</td>
+        <td>专业</td>
+        <td colspan="3">课程</td>
+        <td>分数</td>
+    </tr>
+    <tr>
+        <td>咚咚</td>
+        <td>男</td>
+        <td rowspan="2">计算机</td>
+        <td rowspan="2" colspan="3">程序设计</td>
+        <td>68</td>
+    </tr>
+    <tr>
+        <td>喃喃</td>
+        <td>女</td>
+        <td>69</td>
+    </tr>
+</table>
+</body>
+</html>

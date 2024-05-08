@@ -1,0 +1,54 @@
+/* 基础样式 */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative; /* 设置相对定位的容器 */
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* 静态定位 */
+.static {
+    background-color: #f00;
+    position: static; /* 默认定位方式 */
+}
+
+/* 相对定位 */
+.relative {
+    background-color: #0f0;
+    position: relative;
+    top: 20px; /* 向下移动20px */
+    left: 20px; /* 向右移动20px */
+}
+
+/* 绝对定位 */
+.absolute {
+    background-color: #00f;
+    position: absolute;
+    top: 0; /* 相对于最近的已定位父元素（这里是.container）的顶部 */
+    right: 0; /* 相对于最近的已定位父元素的右侧 */
+}
+
+/* 固定定位 */
+.fixed {
+    background-color: #ff0;
+    position: fixed;
+    bottom: 0; /* 相对于浏览器窗口的底部 */
+    right: 0; /* 相对于浏览器窗口的右侧 */
+}

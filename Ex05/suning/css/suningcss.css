@@ -1,0 +1,11 @@
+*{
+    margin:0;padding:0;font-size: 14px;
+}
+
+ul{list-style: none}
+
+#nav {margin:70px auto;width: 120px;height:60px}
+nav li a{display:block;width:160px;height:30px;line-height: 60px;
+        color: black;background-color: white;text-decoration: none;
+}
+nav li a:hover,nav li a.active{color:#fff; background: orange}

@@ -1,0 +1,33 @@
+.custom-background {
+    background-position: top left; /* 图片位于元素左上角 */
+    /* 或者 */
+    background-position: bottom right; /* 图片位于元素右下角 */
+    /* 或者 */
+    background-position: center center; /* 图片居中对齐 */
+}
+
+.custom-background1 {
+    /*background-image: url("divbackground.png");*/
+    background-position: 200px 50px;
+}
+.custom-background2{
+    background-position: 200% -50%;
+}
+.img-move {
+  /*transform: translateX(20px); !* 向右偏移20像素 *!*/
+  /*!* 或者 *!*/
+  /*transform: translateX(-20px); !* 向左偏移20像素 *!*/
+
+  /* 对于垂直偏移： */
+  /*transform: translateY(20px); !* 向下偏移20像素 *!*/
+  transform: translateY(-100px); /* 向上偏移20像素 */
+}
+.img-move1 {
+    transform:translateY(-200px);
+}
+.img-move2 {
+    transform:translateY(-300px);
+}
+.img-move3 {
+    transform:translateY(-400px);
+}

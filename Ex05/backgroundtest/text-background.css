@@ -1,0 +1,32 @@
+.text-style {
+    font-family: "Arial", sans-serif; /* 字体 */
+    color: #333; /* 文本颜色 */
+    font-size: 18px; /* 字体大小 */
+    line-height: 1.5; /* 行高 */
+    text-align: justify; /* 文本对齐方式 */
+    text-indent: 2em; /* 首行缩进 */
+    letter-spacing: 0.5px; /* 字符间距 */
+    word-spacing: 2px; /* 单词间距 */
+    text-decoration: underline; /* 文本装饰，如下划线 */
+}
+
+/* 背景样式 */
+.background-style {
+    background-color: #f0f0f0; /* 背景颜色 */
+    background-image: url('background.png'); /* 背景图片 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+    background-position: center center; /* 背景图片居中 */
+    background-size: cover; /* 背景图片覆盖整个容器 */
+    padding: 20px; /* 内边距 */
+    border: 1px solid #ccc; /* 边框 */
+}
+
+/* 额外的背景样式，用于展示背景图片的尺寸调整 */
+.background-style p {
+    background-image: url('background.png');
+    background-size: contain; /* 背景图片包含在容器内 */
+    background-clip: padding-box; /* 背景绘制在padding内，不包括border */
+    padding: 10px;
+    border: 5px solid #999;
+    margin: 10px 0;
+}

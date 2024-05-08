@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册界面</title>
+    <style>
+        table,td,th{border:1px solid gray;border-collapse: collapse}
+        style.center{width: max-content;margin-right: auto;margin-left: auto;}
+    </style>
+</head>
+<body>
+<table class = center>
+    <tr style="text-align: center;background-color: cornflowerblue">
+        <th colspan="2">用户注册</th>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p><b>用户名：<br></b></p>
+            <p>注册用户名长度限制为0-10个字节</p>
+        </td>
+        <td>
+            <label>
+                <input type="text">
+            </label>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p><b>性别：<br></b></p>
+            <p>请选择您的性别</p>
+        </td>
+        <td>
+           <form>
+               <input type="radio" id="option1" value="man">
+               <label for="option1" >
+                   <img src="../Image/man.png" alt="man">
+                   男孩
+               </label>
+               <input type="radio" id="option2" value="women">
+               <label for="option2">
+                   <img src="../Image/women.png" alt="women">
+                   女孩
+               </label>
+           </form>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p><b>密码（至少6位）：<br></b></p>
+            <p>请输入密码，区分大小写</p><br>
+            <p>请不要使用任何类似'*'、' '或HTML字符</p>
+        </td>
+        <td>
+            <label>
+                <input type="text">
+            </label>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p><b>密码（至少6位）：<br></b></p>
+            <p>请再输入一遍确认</p>
+        </td>
+        <td>
+            <label>
+                <input type="password">
+            </label>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p><b>密码问题：<br></b></p>
+            <p>忘记密码的提示问题</p>
+        </td>
+        <td>
+            <label>
+                <input type="password">
+            </label>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p><b>问题答案：<br></b></p>
+            <p>忘记密码的提示问题答案，用于取回论坛密码</p>
+        </td>
+        <td>
+            <label>
+                <input type="text">
+            </label>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p><b>Email地址：<br></b></p>
+            <p>请输入有效的邮件地址，这将使您能用到论坛中</p><br>
+            <p>的所有功能</p>
+        </td>
+        <td>
+            <label>
+                <input type="text">
+                <input type="button" value="检测账号">
+            </label>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p style="color: red">*</p>
+            <p><b>一卡通账号：<br></b></p>
+            <p>请输入有效的一卡通账号，这才能使您注册</p>
+        </td>
+        <td>
+            <label>
+                <input type="text">
+            </label>
+        </td>
+    </tr>
+    <tr style="height: fit-content">
+        <td>
+            <p style="color: red">*</p>
+            <p><b>一卡通密码：<br></b></p>
+            <p>请输入有效的一卡通密码，否则不能使您注册</p>
+        </td>
+        <td>
+            <label>
+                <input type="text">
+            </label>
+        </td>
+    </tr>
+</table>
+<div>
+    <input type="checkbox" id="check1" value="vaule">
+    <label for="check1">显示高级用户设置选项</label>
+    <input type="button" id="zhuce" value="注册" style="text-align: center">
+    <input type="button" id="qingchu" value="清除" style="text-align: center">
+</div>
+</body>
+</html>

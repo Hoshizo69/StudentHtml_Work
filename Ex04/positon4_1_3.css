@@ -1,0 +1,19 @@
+body.bo1{
+    /*background-color: #ffffe7;*/
+    background-color: yellow;
+}
+
+div.one{
+    background-color: black;
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    color: white;
+}
+pre{
+    font-size: 40px;
+    text-align: center;
+}
+
